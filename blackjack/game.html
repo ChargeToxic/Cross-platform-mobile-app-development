@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height viewport-fit=cover">
+        <meta name="author" content="sanjay chandwani">
+        <meta name="application-name" content="Black Jack">
+        <meta name="description" content="Simple game">
+        <link rel="stylesheet" type="text/css" href="css/game.css">
+        <title>Game</title>
+    </head>
+    <body class=bg>
+        <div>
+            <h3 style="color: lightskyblue">DEALER</h3>
+            <div class=cardflex>
+                <img id=d1 class=cardimg src="img/blankcard.png">
+                <img id=d2 class=cardimg src="img/blankcard.png">
+                <img id=d3 class=cardimg src="img/blankcard.png">
+                <img id=d4 class=cardimg src="img/blankcard.png">
+            </div>
+            
+            <div class=generalflex>
+                <button id=newgame class=button>NEW</button>
+                
+                <button id=stop class=button>STOP</button>
+                
+                <button id=call class=button>CALL</button>
+                
+                <button id=quit class=button>QUIT</button>
+            </div>
+            
+            <h3 style="color:lightskyblue">PLAYER</h3>
+            <div class="cardflex">
+                
+                <img id=p1 class=cardimg src="img/blankcard.png">
+                <img id=p2 class=cardimg src="img/blankcard.png">
+                <img id=p3 class=cardimg src="img/blankcard.png">
+            </div>
+            
+            <div class=moneyflex>
+                 <p id=money>
+                    Money: $0
+                </p>
+                <select class=betvalue id=betval required>
+                    <option value="none">(none)</option>
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="500">$500</option>
+                </select>
+               
+            </div>
+            <div class=generalflex>
+                <p id=output></p>
+            </div>
+        </div>
+        
+        <script src="js/game.js"></script>
+        <script src="js/jquery.js"></script>
+        
+    </body>
+</html>
