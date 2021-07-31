@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Game</title>
+    </head>
+     <body class=bg>
+         <style>
+          
+table, th, td {
+  border: 5px SOLID black; 
+}
+             
+             </style>
+    
+            
+                 <table align="center" style=" width: 100% ">
+                     <tr>
+                         <th height="200" id="u" class="all"  style="padding-right: 25px; padding-left: 25px;"> 7 <br>UP</th>
+    <th height="200" id="luck" class="all"> LUCKY <br>7</th>
+                         <th height="200" id="dowm" class="all"> 7 <br>DOWN</th>
+                     </tr>
+                     <tr>
+             <td>   <select class="betvalue" id=betval1 required="" align="center" style="position: relative; vertical-align: middle;he">
+                    <option value="0">Place Bet</option>
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="500">$500</option>
+                 </select></td>
+         
+                
+                        <td><select class="betvalue" id="betval2" required="" style="align=center">
+                    
+                    <option value="0">Place Bet</option>
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="500">$500</option>
+                </select>
+                         </td>
+                         <td style="align-content: center">  <select  align="left "class="betvalue" id="betval3" required="" style="align-content: center">
+                    
+                    <option value="0">Place Bet</option>
+                    <option value="10">$10</option>
+                    <option value="20">$20</option>
+                    <option value="50">$50</option>
+                    <option value="100">$100</option>
+                    <option value="500">$500</option>
+                             </select></td>
+                     </tr>
+         </table> 
+         
+         <h1 style="text-align: center" id="set" >Set Your Bet </h1>
+         <div align="center">
+        <table align="center">
+            <tr>
+            <td id="money" class="money" style=" ">Money $0
+                
+                </td>
+                
+            </tr>
+            
+         </table>
+             <br>
+             
+          <button type="button" id="roll-button">Roll Dice</button>
+         </div>
+         <br>
+         <table align="center" border="0" style="width: 70%; border: 0 ; align=center">
+    <tr>
+        <td style="border: 0">
+  <div class="dice" 
+    style="width: 100px";
+>
+    <ol class="die-list even-roll" data-roll="1" id="die-1">
+      <li class="die-item" data-side="1">
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="2">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="3">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="4">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="5">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="6">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+    </ol>
+    
+            </div></td>
+        <td style="border: 0">
+                 <div class="dice2" width="50px" style="
+    width: 50px;
+">
+    <ol class="die-list even-roll" data-roll="1" id="die-1">
+      <li class="die-item2" data-side="1">
+        <span class="dot"></span>
+      </li>
+      <li class="die-item2" data-side="2">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item2" data-side="3">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item2" data-side="4">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item2" data-side="5">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item2" data-side="6">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+                     </ol></div>
+        </td>
+    </tr>
+        </table>
+    
+        
+         
+         
+         <script src="js/index.js"></script>
+         
+         
+         
+         
+            
+
+            
+        
+    </body>
+</html>
